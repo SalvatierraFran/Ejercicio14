@@ -20,7 +20,18 @@ namespace Ejercicio14
         {
             double resultado;
 
-            
+            resultado = (Base1 * Altu) / 2;
+
+            return resultado;
+        }
+
+        public static double CalcularCirculo(double radio)
+        {
+            double resultado;
+
+            resultado = Math.PI * Math.Pow(radio, 2);
+
+            return resultado;
         }
     }
 }
